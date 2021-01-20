@@ -12,6 +12,10 @@ wget -O - https://raw.githubusercontent.com/wdmomoxx/rpi-fbcp/master/rpi1.sh | /
 ```
 wget -O - https://raw.githubusercontent.com/wdmomoxx/rpi-fbcp/master/rpi3.sh | /bin/sh
 ```
+树莓4代
+```
+wget -O - https://raw.githubusercontent.com/wdmomoxx/rpi-fbcp/master/rpi3.sh | /bin/sh
+```
 
 Build
 -----
@@ -49,3 +53,16 @@ Pi3 Install
     $ sudo chmod +x autoinstall-pi3.sh
         
     $ ./autoinstall-pi3.sh
+
+Pi4 Install
+-----
+
+    $ cd ~
+    
+    $ git clone https://github.com/wdmomoxx/rpi-fbcp.git
+    
+    $ cd rpi-fbcp
+    
+    $ sudo chmod +x autoinstall-pi4.sh
+        
+    $ ./autoinstall-pi4.sh
