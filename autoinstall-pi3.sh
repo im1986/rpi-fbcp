@@ -30,7 +30,7 @@ sudo sed -i '$a fbtft_device' modules
 cd /boot/
 sudo sed -i 's/#dtparam=spi=on/dtparam=spi=on/g' config.txt
 sudo sed -i '$a dtoverlay=pwm-2chan,pin=18,func=2' config.txt
-sudo sed -i '$a dtoverlay=pitft28-resistive,rotate=270,speed=90000000,fps=60' config.txt
+sudo sed -i '$a dtoverlay=pitft28-resistive,rotate=270,speed=60000000,fps=60' config.txt
 sudo sed -i '$a hdmi_force_hotplug=1' config.txt
 sudo sed -i '$a hdmi_group=2' config.txt
 sudo sed -i '$a hdmi_mode=87' config.txt
